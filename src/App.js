@@ -28,10 +28,60 @@ function App() {
 
         <div class="row align-items-start grid mt-5">
 
-          <div class="col-12 border border-primary text start">
-            Logo
+          <div class="col-12 border border-primary text-start">
+            <p>
+              Bachelor of Information Technology
+            </p>
+            <ul >
+              <li>Introduction to Programming</li>
+              <li>Computing Theory</li>
+              <li>Machine Learning</li>
+              <li>Artificial Intelligence</li>
+              <li>Software Engineering Project Management</li>
+              <li>Data Structure and Algorithm</li>
+              <li>Web Programming</li>
+              <li>User-centered Design</li>
+            </ul>
           </div>
-          
+        </div>
+        
+        <div class="row align-items-start grid mt-5">
+
+          <div class="col-12 border border-primary text-start">
+            <p>
+              Bachelor of Information Technology
+            </p>
+            <p>
+                Front-end developer
+                Back-end developer
+                Database management
+                Machine Learning/AI
+                Python, Java, C++ Developer
+                Wev developer
+            </p>
+            
+          </div>
+        </div>
+
+        <div class="row align-items-start grid mt-5">
+
+          <div class="col-12 border border-primary text-start">
+            <p>
+              Skills
+            </p>
+            <p>
+            Personal: Management Skills, Time Management, Critical Thinking, Communication Skills, Reflective
+            Thinking, Research, Teamwork
+            </p>
+            
+            <p>
+            Professional: Data processing, Artificial Intelligence, Machine Learning, Professional Communication,
+            Database Mangement, Web development, UI Design, Data Analysis, Project Management
+            Tools and Technology: Python, Ollama, LangChain, Github, MongoDB, ChromaDB, PostgreSQL, Java,
+            JavaScript, ReactJS, TailwindCSS, StreamLit, Jira
+            </p>
+            
+          </div>
         </div>
 
         
