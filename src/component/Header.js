@@ -1,23 +1,25 @@
 import React from "react";
 import "bootstrap";
+import { NavLink } from 'react-router-dom'
+
 const Header = () => (
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">
+  <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <div className="collapse navbar-collapse" id="navbarText">
+      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        <li className="nav-item">
+          <NavLink className="nav-link active" activeClassName="active"  to="/home">
             Home
-          </a>
+          </NavLink>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
+        <li className="nav-item">
+          <NavLink className="nav-link" activeClassName="active" to="/portfolio">
             Portfolio
-          </a>
+          </NavLink>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
+        <li className="nav-item">
+          <NavLink className="nav-link" activeClassName="active" to="/contact">
             Contact
-          </a>
+          </NavLink>
         </li>
       </ul>
     </div>
