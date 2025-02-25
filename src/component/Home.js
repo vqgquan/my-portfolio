@@ -41,7 +41,7 @@ const Home = () => {
 
       <div class="row align-items-start grid mt-5">
         <div class="col-12 border border-primary text-start">
-          <p>Bachelor of Information Technology</p>
+          <p>Area of expertise</p>
           <ul>
             <li>Front-end developer</li>
             <li>Back-end developer</li>
