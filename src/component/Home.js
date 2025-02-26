@@ -1,11 +1,13 @@
 import React from "react";
-
+import image from "./images.jpg"
 const Home = () => {
   return (
     <div class="container mt-3">
       <div class="row align-items-start grid">
-        <div class="col-6 border border-primary">Logo</div>
-        <div class="col-6 border border-primary text-start">
+        <div class="col-6 ">
+          <img src={image} className="img-fluid rounded"></img>
+        </div>
+        <div class="col-6 text-start">
           <p>
             I am looking for an exciting position in a dynamic IT environment
             where I can improve my expertise, contribute to the company's
@@ -24,7 +26,7 @@ const Home = () => {
       </div>
 
       <div class="row align-items-start grid mt-5">
-        <div class="col-12 border border-primary text-start">
+        <div class="col-12 text-start">
           <p>Bachelor of Information Technology</p>
           <ul>
             <li>Introduction to Programming</li>
@@ -40,7 +42,7 @@ const Home = () => {
       </div>
 
       <div class="row align-items-start grid mt-5">
-        <div class="col-12 border border-primary text-start">
+        <div class="col-12 text-start">
           <p>Area of expertise</p>
           <ul>
             <li>Front-end developer</li>
@@ -54,7 +56,7 @@ const Home = () => {
       </div>
 
       <div class="row align-items-start grid mt-5">
-        <div class="col-12 border border-primary text-start">
+        <div class="col-12 text-start">
           <p>Skills</p>
           <p>
             Personal: Management Skills, Time Management, Critical Thinking,
