@@ -4,19 +4,19 @@ import { NavLink } from 'react-router-dom'
 
 const Header = () => (
   <nav className="navbar navbar-expand-lg bg-body-tertiary">
-    <div className="collapse navbar-collapse" id="navbarText">
-      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-        <li className="nav-item">
-          <NavLink className="nav-link active" activeClassName="active"  to="/home">
+    <div className=" navbar-collapse row" id="navbarText">
+      <ul className="navbar-nav">
+        <li className="col-4">
+          <NavLink className="nav-link" activeClassName="active"  to="/home">
             Home
           </NavLink>
         </li>
-        <li className="nav-item">
+        <li className="col-4">
           <NavLink className="nav-link" activeClassName="active" to="/portfolio">
             Portfolio
           </NavLink>
         </li>
-        <li className="nav-item">
+        <li className="col-4">
           <NavLink className="nav-link" activeClassName="active" to="/contact">
             Contact
           </NavLink>
