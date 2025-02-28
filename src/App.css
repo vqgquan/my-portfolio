@@ -7,6 +7,13 @@
   pointer-events: none;
 }
 
+#header{
+}
+
+:root {
+  --bs-gradient: linear-gradient( rgb(248, 248, 249) 0%, rgba(40,167,69,1));
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

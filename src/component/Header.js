@@ -3,8 +3,8 @@ import "bootstrap";
 import { NavLink } from 'react-router-dom'
 
 const Header = () => (
-  <nav className="navbar navbar-expand-lg bg-body-tertiary">
-    <div className=" navbar-collapse row" id="navbarText">
+  <nav id="header" className="navbar navbar-expand-lg bg-success">
+    <div className=" navbar-collapse row " id="navbarText">
       <ul className="navbar-nav">
         <li className="col-4">
           <NavLink className="nav-link" activeClassName="active"  to="/home">
