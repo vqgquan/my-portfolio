@@ -2,7 +2,7 @@ import React from "react";
 
 const Portfolio = () => {
   return (
-    <div className="container text-start">
+    <div className="container text-start mt-4">
       <p className="fs-2 fw-bold">University project and experience</p>
       <div>
         <p>MedVoice: An AI assistant for medical documentation</p>
