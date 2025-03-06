@@ -5,7 +5,7 @@ const Home = () => {
     <div class="container mt-3">
       <div class="row align-items-start grid">
         <div class="col-6 ">
-          <img src={image} alt="face image" className="img-fluid rounded"></img>
+          <img src={image} alt="face logo" className="img-fluid rounded"></img>
         </div>
         <div class="col-6 text-start">
           <p>
